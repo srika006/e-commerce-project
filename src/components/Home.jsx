@@ -1,11 +1,11 @@
 import { useContext, useEffect, useState } from "react";
-import ProductList from "./ProductList";
-import BasicOps from "../utility/BasicOPs";
+import ProductList from "./ProductList.jsx";
+import BasicOps from "../utility/BasicOPs.js";
 import { Link } from "react-router-dom";
-import { PageContainer } from "../context/PageContextProvider";
-import { useDarkMode } from "../context/DarkModeContextProvider";
-import LightIcon from "../assets/icons/LightIcon";
-import DarkIcon from "../assets/icons/DarkIcon";
+import { PageContainer } from "../context/PageContextProvider.jsx";
+import { useDarkMode } from "../context/DarkModeContextProvider.jsx";
+import LightIcon from "../assets/icons/LightIcon.jsx";
+import DarkIcon from "../assets/icons/DarkIcon.jsx";
 
 function Home() {
   const [products, setProducts] = useState(null);
