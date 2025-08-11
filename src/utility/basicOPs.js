@@ -3,6 +3,7 @@ export default function BasicOps(products, searchTerm, sortDir, currCategory, pa
         return { filteredSortedGroupArr: [], totalPages: 0 };
     }
 
+    
     // Search filter
     let filteredArr = products;
     if (searchTerm) {
