@@ -1,9 +1,12 @@
-import React from 'react'
 import {createContext,useState,useContext} from 'react'
+
 const DarkModeContainer = createContext();  
+
+
 export const useDarkMode=()=>{
     return useContext(DarkModeContainer)
 }  
+
 export function DarkModeContextProvider({children}) {
     // Create a  dark mode or no
     const [darkMode, setDarkMode] = useState(false);  

@@ -1,5 +1,4 @@
-import React from "react";
-import Productitems from "./ProductItems";
+import Productitems from "./ProductItems.jsx";
 
 function ProductList(props) {
   const { productList } = props;

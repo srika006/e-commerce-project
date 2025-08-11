@@ -3,7 +3,7 @@ export default function BasicOps(products, searchTerm, sortDir, currCategory, pa
         return { filteredSortedGroupArr: [], totalPages: 0 };
     }
 
-    
+
     // Search filter
     let filteredArr = products;
     if (searchTerm) {
@@ -48,3 +48,4 @@ function aO(product1, product2) {
 function dO(product1, product2) {
     return product1.price < product2.price ? 1 : -1;
 }
+

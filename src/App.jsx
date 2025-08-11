@@ -1,10 +1,13 @@
 
 import { Routes,Route,Navigate} from 'react-router'
 import './App.css'
-import Home from './components/Home'
-import ProductDetails from './components/ProductDetails'
-import PageNotFound from './components/PageNotFound'
-import Cart from './components/Cart'
+import Home from './components/Home.jsx'
+import ProductDetails from './components/ProductDetails.jsx'
+import PageNotFound from './components/PageNotFound.jsx'
+import Cart from './components/Cart.jsx'
+
+
+
 function App() {
 
   return (

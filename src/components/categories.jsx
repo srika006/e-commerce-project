@@ -1,6 +1,6 @@
 import React from 'react'
 
-function categories(props) {
+function Categories(props) {
     const{categories,setCurrCategory}=props;
   return (
     <div>
@@ -27,4 +27,4 @@ function categories(props) {
   )
 }
 
-export default categories
+export default Categories
