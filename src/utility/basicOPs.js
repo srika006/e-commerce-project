@@ -1,4 +1,4 @@
-export default function basicOps(products,searchTerm,sortDir,currCategory,pageNum,pageSize){
+export default function BasicOps(products,searchTerm,sortDir,currCategory,pageNum,pageSize){
     if (products==null){
         return;
     }

@@ -1,6 +1,6 @@
 import { useContext, useEffect, useState } from "react";
 import ProductList from "./ProductList";
-import basicOps from "../utility/basicOps";
+import BasicOps from "../utility/BasicOPs";
 import { Link } from "react-router-dom";
 import { PageContainer } from "../context/PageContextProvider";
 import { useDarkMode } from "../context/DarkModeContextProvider";
@@ -47,7 +47,7 @@ function Home() {
 
   useEffect(fetchCategoriesDetails, []);
 
-  let objects = basicOps(
+  let objects = BasicOps(
     products,
     searchTerm,
     sortDir,
