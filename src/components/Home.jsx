@@ -1,6 +1,5 @@
 import { useContext, useEffect, useState } from "react";
 import ProductList from "./ProductList";
-import Categories from "./Categories";
 import basicOps from "../utility/basicOps";
 import { Link } from "react-router-dom";
 import { PageContainer } from "../context/PageContextProvider";
